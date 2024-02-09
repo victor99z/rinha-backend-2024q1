@@ -43,7 +43,11 @@ go.work
 .history
 .ionide
 
+.env
+
 # air golang live reload 
 cmd/tmp
+
+tmp/
 
 # End of https://www.toptal.com/developers/gitignore/api/go,visualstudiocode

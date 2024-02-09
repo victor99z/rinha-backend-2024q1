@@ -1,12 +1,14 @@
 ###
 
+
 POST http://localhost:3000/clientes/1/transacoes
 Content-Type: application/json
 
 {
   "valor": 100000,
   "tipo": "c",
-  "descricao" : "descrição"
+  "descricao" : "descrição",
+  "fodase":"fodase"
 }
 
 ### 
