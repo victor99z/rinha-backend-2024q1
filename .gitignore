@@ -48,7 +48,7 @@ go.work
 # air golang live reload 
 cmd/tmp
 
-load-test
+load-test/
 ./load-test/*
 ./tmp
 tmp/*
