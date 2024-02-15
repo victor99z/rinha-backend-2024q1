@@ -5,7 +5,6 @@ import (
 	"math"
 
 	_ "github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/log"
 	"github.com/jmoiron/sqlx"
 	"github.io/victor99z/rinha/models"
 )
@@ -67,12 +66,15 @@ func (s *ClienteStorage) CreateTx(transaction *models.Transaction) (ReturnTx, er
 
 	response := ReturnTx{}
 
-	tx, _ := s.Conn.Beginx()
+	tx, err := s.Conn.Beginx()
+
+	if err != nil {
+		return ReturnTx{}, err
+	}
 
 	infoCliente := tx.Get(&response, "SELECT valor, limite FROM saldos, clientes WHERE saldos.cliente_id = $1 and clientes.id = $1", transaction.ClienteId)
 
 	if infoCliente != nil {
-		log.Error(infoCliente.Error())
 		tx.Rollback()
 		return ReturnTx{}, errors.New("cliente not found")
 	}
@@ -85,14 +87,29 @@ func (s *ClienteStorage) CreateTx(transaction *models.Transaction) (ReturnTx, er
 	tx.Exec("INSERT INTO transacoes (cliente_id, valor, tipo, descricao) VALUES ($1, $2, $3, $4)", transaction.ClienteId, transaction.Valor, transaction.Tipo, transaction.Descricao)
 
 	if transaction.Tipo == "c" {
-		tx.Exec("UPDATE saldos SET valor = valor + $1 WHERE cliente_id = $2", transaction.Valor, transaction.ClienteId)
+		res, err := tx.Exec("UPDATE saldos SET valor = valor + $1 WHERE cliente_id = $2 RETURNING valor", transaction.Valor, transaction.ClienteId)
+
+		if err != nil {
+			tx.Rollback()
+			return ReturnTx{}, err
+		}
+
+		getSaldo, _ := res.LastInsertId()
+		response.Saldo = int(getSaldo)
+
 	} else {
-		tx.Exec("UPDATE saldos SET valor = valor - $1 WHERE cliente_id = $2", transaction.Valor, transaction.ClienteId)
+		res, err := tx.Exec("UPDATE saldos SET valor = valor - $1 WHERE cliente_id = $2 RETURNING valor", transaction.Valor, transaction.ClienteId)
+
+		if err != nil {
+			tx.Rollback()
+			return ReturnTx{}, err
+		}
+
+		getSaldo, _ := res.LastInsertId()
+		response.Saldo = int(getSaldo)
 	}
 
 	tx.Commit()
-
-	tx.Get(&response, "SELECT valor, limite FROM saldos WHERE cliente_id = $1", transaction.ClienteId)
 
 	return response, nil
 }

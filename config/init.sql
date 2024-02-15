@@ -37,3 +37,26 @@ BEGIN
 		SELECT id, 0 FROM clientes;
 END;
 $$;
+
+-- create or replace function atualiza_saldo() returns trigger as $$
+-- declare 
+-- 	saldo_ INTEGER;
+-- 	limite_ INTEGER;
+
+-- begin
+
+-- 	SELECT valor into saldo_, limite into limite_ FROM saldos, clientes WHERE saldos.cliente_id = new.cliente_id and clientes.id = new.cliente_id FOR UPDATE;
+
+-- 	if (new.tipo = 'c') then
+-- 		update saldos set valor = saldo_ + new.valor where cliente_id = new.cliente_id;
+-- 	else
+-- 		update saldos set valor = saldo_ - new.valor where cliente_id = new.cliente_id;
+-- 	end if;
+
+-- 	return new.valor;
+-- end;
+
+-- $$ language plpgsql;
+
+
+-- create trigger atualiza_saldo before insert on transacoes for each row execute procedure atualiza_saldo();
