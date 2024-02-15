@@ -7,18 +7,16 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.io/victor99z/rinha/database"
 	"github.io/victor99z/rinha/handlers"
+	"github.io/victor99z/rinha/repository"
 )
-
-func DebugHandler(c *fiber.Ctx) error {
-	return c.SendStatus(fiber.StatusOK)
-}
 
 func main() {
 
-	db, _ := database.CreateConnection()
+	db := database.CreateConnection()
+	storage := repository.NewClienteStorage(db)
+	handlers := handlers.NewClienteHandlers(storage)
 
-	// Cria uma nova instância do ClienteStorage
-	storage := handlers.NewClienteStorage(db)
+	defer db.Close()
 
 	// Muda o decoder e encoder padrão do Fiber para o go-json
 	app := fiber.New(fiber.Config{
@@ -26,8 +24,9 @@ func main() {
 		JSONDecoder: json.Unmarshal,
 	})
 
-	app.Post("/clientes/:id/transacoes", storage.NewTransaction)
-	app.Get("/clientes/:id/extrato", storage.GetBalance)
+	app.Post("/clientes/:id/transacoes", handlers.NewTransaction)
+	app.Get("/clientes/:id/extrato", handlers.GetBalance)
 
 	log.Fatal(app.Listen(":3000"))
+
 }

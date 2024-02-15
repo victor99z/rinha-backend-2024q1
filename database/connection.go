@@ -8,28 +8,27 @@ import (
 )
 
 func Storage() *sqlx.DB {
-	db, err := CreateConnection()
-	if err != nil {
-		log.Fatal(err)
-	}
+	db := CreateConnection()
 	return db
 }
 
-func CreateConnection() (*sqlx.DB, error) {
-	db, err := sqlx.Connect("postgres", "user=admin dbname=rinha password=admin sslmode=disable host=localhost")
+func CreateConnection() *sqlx.DB {
+
+	db, err := sqlx.Connect("postgres",
+		"user=admin dbname=rinha password=admin sslmode=disable host=postgres port=5432")
 
 	if err != nil {
 		log.Fatal(err)
-		return nil, err
+		return nil
 	}
 
 	// Test the connection to the database
 	if err := db.Ping(); err != nil {
 		log.Fatal(err)
-		return nil, err
+		return nil
 	} else {
 		log.Println("Successfully Connected")
 	}
 
-	return db, nil
+	return db
 }

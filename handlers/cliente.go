@@ -3,92 +3,60 @@ package handlers
 import (
 	"github.com/go-playground/validator"
 	"github.com/gofiber/fiber/v2"
-	"github.com/jmoiron/sqlx"
 	"github.io/victor99z/rinha/models"
+	"github.io/victor99z/rinha/repository"
 )
 
-type ClienteStorage struct {
-	Conn *sqlx.DB
+type ClienteHandlers struct {
+	Store *repository.ClienteStorage
 }
 
-func NewClienteStorage(conn *sqlx.DB) *ClienteStorage {
-	return &ClienteStorage{Conn: conn}
+func NewClienteHandlers(store *repository.ClienteStorage) *ClienteHandlers {
+	return &ClienteHandlers{Store: store}
 }
 
-type ExtratoFormatado struct {
-	Saldo models.Saldo         `json:"saldo"`
-	Tx    []models.Transaction `json:"ultimas_transacoes"`
-}
+func (s *ClienteHandlers) GetBalance(c *fiber.Ctx) error {
 
-type (
-	TxDTO struct {
-		Valor     int64  `json:"valor"`
-		Tipo      string `json:"tipo"`
-		Descricao string `json:"descricao"`
-		Date      string `json:"realizada_em"`
-	}
-	SaldoDTO struct {
-		Total       int64  `json:"total"`
-		DataExtrato string `json:"data_extrato"`
-		Limite      int64  `json:"limite"`
-	}
-)
+	res, err := s.Store.GetExtrato(c.Params("id"))
 
-func (s *ClienteStorage) GetBalance(c *fiber.Ctx) error {
-
-	saldoCliente := new([]models.Saldo)
-	ultimasTx := new([]models.Transaction)
-
-	errSaldo := s.Conn.Select(saldoCliente, "SELECT * FROM saldos WHERE cliente_id = $1", c.Params("id"))
-
-	if errSaldo != nil {
-		return c.Status(fiber.StatusInternalServerError).SendString(errSaldo.Error())
-	}
-
-	firstSaldoClinte := (*saldoCliente)[0]
-
-	if firstSaldoClinte.Id == 0 {
-		return c.SendStatus(fiber.StatusNotFound)
-	}
-
-	errTx := s.Conn.Select(ultimasTx, "SELECT * FROM transacoes WHERE cliente_id = $1 ORDER BY realizada_em DESC LIMIT 10", c.Params("id"))
-
-	if errTx != nil {
+	if err != nil {
+		if err.Error() == "cliente not found" {
+			return c.SendStatus(fiber.StatusNotFound)
+		}
 		return c.SendStatus(fiber.StatusInternalServerError)
 	}
 
-	ExtratoFormatado := ExtratoFormatado{
-		Saldo: firstSaldoClinte,
-		Tx:    *ultimasTx,
-	}
-
-	return c.Status(fiber.StatusOK).JSON(ExtratoFormatado)
+	return c.Status(fiber.StatusOK).JSON(res)
 }
 
-func (s *ClienteStorage) NewTransaction(c *fiber.Ctx) error {
+func (s *ClienteHandlers) NewTransaction(c *fiber.Ctx) error {
 
 	newTx := new(models.Transaction)
 
 	if err := c.BodyParser(&newTx); err != nil {
-		return c.SendStatus(fiber.StatusBadRequest)
+		return c.SendStatus(fiber.StatusUnprocessableEntity)
 	}
 
-	validate := validator.New()
-	errValidation := validate.Struct(newTx)
-
-	if errValidation != nil {
-		return c.SendStatus(fiber.StatusBadRequest)
+	if validate := validator.New(); validate.Struct(newTx) != nil {
+		return c.SendStatus(fiber.StatusUnprocessableEntity)
 	}
 
 	newTx.ClienteId = (c.Params("id"))
 
-	// s.Conn.MustExec("UPDATE saldo SET valor = valor + $1 WHERE cliente_id = $2", newTx.Valor, newTx.ClienteId)
+	res, err := s.Store.CreateTx(newTx)
 
-	res := s.Conn.MustExec("INSERT INTO transacoes (cliente_id, valor, tipo, descricao) VALUES ($1, $2, $3, $4)", newTx.ClienteId, newTx.Valor, newTx.Tipo, newTx.Descricao)
+	if err != nil {
+		if err.Error() == "saldo invalido" {
+			return c.SendStatus(fiber.StatusUnprocessableEntity)
+		}
 
-	if v, _ := res.RowsAffected(); v == 0 {
-		return c.SendStatus(fiber.StatusBadRequest)
+		if err.Error() == "cliente not found" {
+			return c.SendStatus(fiber.StatusNotFound)
+		}
+
+		return c.SendStatus(fiber.StatusUnprocessableEntity)
+
 	}
 
-	return c.SendStatus(fiber.StatusCreated)
+	return c.Status(fiber.StatusOK).JSON(res)
 }

@@ -1,21 +1,28 @@
-FROM golang:1.22-alpine AS builder
+FROM golang:1.21-alpine AS base
+
+
+RUN apk add -U tzdata
+RUN apk --update add ca-certificates
 
 WORKDIR /app
-
-COPY go.mod go.sum ./
+COPY . .
 
 RUN go mod download
-
-COPY . .
+RUN go mod verify
 
 ENV CGO_ENABLED=0 GOOS=linux GOARCH=amd64
 
-RUN go build -ldflags="-s -w" -o apiserver .
+RUN go build -ldflags="-s -w" -o /server .
 
-FROM scratch AS production
+FROM scratch
 
-COPY --from=builder ["/build/apiserver", "/build/.env", "/"]
+COPY --from=base /usr/share/zoneinfo /usr/share/zoneinfo
+COPY --from=base /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
+COPY --from=base /etc/passwd /etc/passwd
+COPY --from=base /etc/group /etc/group
+
+COPY --from=base /server .
 
 EXPOSE 3000
 
-ENTRYPOINT ["/apiserver"]
+CMD [ "/server" ]

@@ -1,0 +1,814 @@
+RUN	RinhaBackendCrebitosSimulation	rinhabackendcrebitossimulation	1707854063515	Rinha de Backend - 2024/Q1: Crébito	3.10.3
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064602
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064603
+USER	validação concorrência transações - d	START	1707854064602
+REQUEST		validações	1707854064598	1707854064615	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064622	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064619	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064613	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064609	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064603	1707854064616	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064620	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064623	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064610	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064624	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064599	1707854064622	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064624	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064616	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064625	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064622	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - d	END	1707854064625
+USER	validação concorrência transações - d	END	1707854064625
+USER	validação concorrência transações - d	END	1707854064625
+USER	validação concorrência transações - d	END	1707854064625
+USER	validação concorrência transações - d	END	1707854064625
+USER	validação concorrência transações - d	END	1707854064625
+USER	validação concorrência transações - d	END	1707854064625
+USER	validação concorrência transações - d	END	1707854064625
+USER	validação concorrência transações - d	END	1707854064625
+USER	validação concorrência transações - d	END	1707854064626
+USER	validação concorrência transações - d	END	1707854064626
+USER	validação concorrência transações - d	END	1707854064626
+USER	validação concorrência transações - d	END	1707854064626
+USER	validação concorrência transações - d	END	1707854064626
+REQUEST		validações	1707854064598	1707854064626	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - d	END	1707854064626
+USER	validação concorrência transações - d	END	1707854064626
+REQUEST		validações	1707854064598	1707854064628	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - d	END	1707854064629
+REQUEST		validações	1707854064598	1707854064629	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - d	END	1707854064629
+REQUEST		validações	1707854064598	1707854064630	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - d	END	1707854064630
+REQUEST		validações	1707854064598	1707854064647	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064647	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064647	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854064598	1707854064647	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - d	END	1707854064648
+USER	validação concorrência transações - d	END	1707854064648
+USER	validação concorrência transações - d	END	1707854064648
+USER	validação concorrência transações - d	END	1707854064648
+REQUEST		validações	1707854064598	1707854064651	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - d	END	1707854064651
+REQUEST		validações	1707854064598	1707854064652	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - d	END	1707854064652
+USER	validação concorrência saldo - -25	START	1707854065586
+REQUEST		validações	1707854065586	1707854065588	KO	jmesPath(saldo.total).find.is(-25), but actually found 0
+USER	validação concorrência saldo - -25	END	1707854065641
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066587
+USER	validação concorrência transações - c	START	1707854066588
+USER	validação concorrência transações - c	START	1707854066588
+USER	validação concorrência transações - c	START	1707854066588
+USER	validação concorrência transações - c	START	1707854066588
+USER	validação concorrência transações - c	START	1707854066588
+USER	validação concorrência transações - c	START	1707854066588
+USER	validação concorrência transações - c	START	1707854066588
+USER	validação concorrência transações - c	START	1707854066588
+USER	validação concorrência transações - c	START	1707854066588
+USER	validação concorrência transações - c	START	1707854066589
+USER	validação concorrência transações - c	START	1707854066589
+USER	validação concorrência transações - c	START	1707854066589
+USER	validação concorrência transações - c	START	1707854066589
+REQUEST		validações	1707854066586	1707854066591	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066586	1707854066591	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066586	1707854066592	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066586	1707854066592	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066592
+USER	validação concorrência transações - c	END	1707854066592
+USER	validação concorrência transações - c	END	1707854066592
+USER	validação concorrência transações - c	END	1707854066592
+REQUEST		validações	1707854066589	1707854066593	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066588	1707854066593	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066594
+USER	validação concorrência transações - c	END	1707854066594
+REQUEST		validações	1707854066586	1707854066595	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066596
+REQUEST		validações	1707854066587	1707854066598	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066599
+REQUEST		validações	1707854066587	1707854066600	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066587	1707854066600	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066588	1707854066600	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066586	1707854066600	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066589	1707854066600	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066600
+USER	validação concorrência transações - c	END	1707854066601
+USER	validação concorrência transações - c	END	1707854066601
+USER	validação concorrência transações - c	END	1707854066601
+USER	validação concorrência transações - c	END	1707854066601
+REQUEST		validações	1707854066586	1707854066601	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066586	1707854066601	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066601
+USER	validação concorrência transações - c	END	1707854066601
+REQUEST		validações	1707854066588	1707854066602	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066586	1707854066602	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066602
+USER	validação concorrência transações - c	END	1707854066603
+REQUEST		validações	1707854066588	1707854066604	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066588	1707854066604	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066604
+USER	validação concorrência transações - c	END	1707854066604
+REQUEST		validações	1707854066587	1707854066606	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066587	1707854066606	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066606
+USER	validação concorrência transações - c	END	1707854066606
+REQUEST		validações	1707854066588	1707854066607	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066586	1707854066607	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066607
+USER	validação concorrência transações - c	END	1707854066607
+REQUEST		validações	1707854066587	1707854066608	KO	status.find.is(200), but actually found 404
+REQUEST		validações	1707854066588	1707854066608	KO	status.find.is(200), but actually found 404
+USER	validação concorrência transações - c	END	1707854066608
+USER	validação concorrência transações - c	END	1707854066608
+USER	validação concorrência saldo - 0	START	1707854067586
+REQUEST		validações	1707854067585	1707854067587	OK	 
+USER	validação concorrência saldo - 0	END	1707854067588
+USER	validações	START	1707854068586
+USER	validações	START	1707854068586
+USER	validações	START	1707854068586
+USER	validações	START	1707854068586
+USER	validações	START	1707854068586
+USER	validação HTTP 404	START	1707854068587
+REQUEST		validações	1707854068586	1707854068589	KO	status.find.is(404), but actually found 200
+USER	validação HTTP 404	END	1707854068590
+REQUEST		validações	1707854068589	1707854068591	OK	 
+REQUEST		validações	1707854068589	1707854068591	OK	 
+REQUEST		validações	1707854068589	1707854068591	OK	 
+REQUEST		validações	1707854068589	1707854068591	OK	 
+REQUEST		validações	1707854068592	1707854068593	KO	status.find.in(200), but actually found 404
+REQUEST		validações	1707854068592	1707854068593	KO	status.find.in(200), but actually found 404
+REQUEST		validações	1707854068592	1707854068593	KO	status.find.in(200), but actually found 404
+REQUEST		validações	1707854068592	1707854068593	KO	status.find.in(200), but actually found 404
+REQUEST		validações	1707854068589	1707854068595	OK	 
+REQUEST		validações	1707854068595	1707854068596	KO	status.find.in(200), but actually found 404
+REQUEST		validações	1707854068595	1707854068596	KO	status.find.in(200), but actually found 404
+REQUEST		validações	1707854068595	1707854068596	KO	status.find.in(200), but actually found 404
+REQUEST		validações	1707854068595	1707854068596	KO	status.find.in(200), but actually found 404
+REQUEST		validações	1707854068597	1707854068597	KO	status.find.in(200), but actually found 404
+REQUEST		validações	1707854068595	1707854068600	KO	status.find.in(200), but actually found 404
+REQUEST		validações	1707854068597	1707854068598	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1707854068598	1707854068599	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1707854068597	1707854068598	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1707854068597	1707854068601	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1707854068601	1707854068602	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1707854068602	1707854068603	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068602	1707854068603	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068602	1707854068603	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068602	1707854068603	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068603	1707854068603	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068603	1707854068604	OK	 
+REQUEST		validações	1707854068603	1707854068604	OK	 
+REQUEST		validações	1707854068603	1707854068604	OK	 
+REQUEST		validações	1707854068603	1707854068604	OK	 
+REQUEST		validações	1707854068604	1707854068604	OK	 
+REQUEST		validações	1707854068604	1707854068604	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068604	1707854068605	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068604	1707854068605	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068604	1707854068605	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068605	1707854068605	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068605	1707854068605	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068605	1707854068605	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068605	1707854068606	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068605	1707854068606	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068605	1707854068606	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068605	1707854068606	KO	status.find.in(422), but actually found 400
+USER	validações	END	1707854068606
+REQUEST		validações	1707854068606	1707854068606	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068606	1707854068606	KO	status.find.in(422), but actually found 400
+REQUEST		validações	1707854068606	1707854068606	KO	status.find.in(422), but actually found 400
+USER	validações	END	1707854068607
+USER	validações	END	1707854068607
+USER	validações	END	1707854068607
+REQUEST		validações	1707854068606	1707854068607	KO	status.find.in(422), but actually found 400
+USER	validações	END	1707854068607
+USER	extratos	START	1707854069596
+USER	débitos	START	1707854069597
+USER	créditos	START	1707854069597
+REQUEST		créditos	1707854069596	1707854069598	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854069599
+REQUEST		débitos	1707854069596	1707854069598	KO	status.find.in(200,422), but actually found 404
+REQUEST		extratos	1707854069596	1707854069598	OK	 
+USER	débitos	END	1707854069599
+USER	extratos	END	1707854069599
+USER	créditos	START	1707854070586
+USER	extratos	START	1707854070586
+REQUEST		créditos	1707854070586	1707854070588	KO	status.find.in(200), but actually found 404
+REQUEST		extratos	1707854070586	1707854070588	OK	 
+USER	créditos	END	1707854070588
+USER	extratos	END	1707854070588
+USER	débitos	START	1707854070589
+REQUEST		débitos	1707854070589	1707854070590	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854070590
+USER	débitos	START	1707854070836
+REQUEST		débitos	1707854070835	1707854070837	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854070838
+USER	créditos	START	1707854071086
+USER	débitos	START	1707854071086
+REQUEST		débitos	1707854071085	1707854071087	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854071088
+REQUEST		créditos	1707854071085	1707854071087	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854071088
+USER	débitos	START	1707854071336
+REQUEST		débitos	1707854071336	1707854071338	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854071339
+USER	débitos	START	1707854071586
+USER	extratos	START	1707854071586
+USER	créditos	START	1707854071586
+REQUEST		débitos	1707854071585	1707854071587	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854071587
+REQUEST		créditos	1707854071585	1707854071587	KO	status.find.in(200), but actually found 404
+REQUEST		extratos	1707854071585	1707854071587	OK	 
+USER	créditos	END	1707854071588
+USER	extratos	END	1707854071588
+USER	débitos	START	1707854071751
+REQUEST		débitos	1707854071751	1707854071753	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854071753
+USER	créditos	START	1707854071836
+REQUEST		créditos	1707854071835	1707854071837	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854071838
+USER	débitos	START	1707854071918
+REQUEST		débitos	1707854071918	1707854071920	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854071920
+USER	débitos	START	1707854072086
+USER	créditos	START	1707854072086
+REQUEST		débitos	1707854072085	1707854072087	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854072087
+REQUEST		créditos	1707854072085	1707854072087	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854072087
+USER	débitos	START	1707854072252
+REQUEST		débitos	1707854072251	1707854072253	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854072254
+USER	créditos	START	1707854072336
+REQUEST		créditos	1707854072336	1707854072338	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854072339
+USER	débitos	START	1707854072419
+REQUEST		débitos	1707854072419	1707854072421	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854072421
+USER	extratos	START	1707854072586
+USER	débitos	START	1707854072586
+USER	créditos	START	1707854072586
+REQUEST		débitos	1707854072586	1707854072588	KO	status.find.in(200,422), but actually found 404
+REQUEST		créditos	1707854072586	1707854072587	KO	status.find.in(200), but actually found 404
+USER	débitos	END	1707854072588
+REQUEST		extratos	1707854072585	1707854072587	OK	 
+USER	créditos	END	1707854072588
+USER	extratos	END	1707854072588
+USER	débitos	START	1707854072728
+REQUEST		débitos	1707854072727	1707854072729	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854072730
+USER	créditos	START	1707854072835
+REQUEST		créditos	1707854072835	1707854072837	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854072837
+USER	débitos	START	1707854072871
+REQUEST		débitos	1707854072870	1707854072872	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854072872
+USER	débitos	START	1707854073014
+REQUEST		débitos	1707854073014	1707854073017	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854073017
+USER	créditos	START	1707854073086
+REQUEST		créditos	1707854073085	1707854073087	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854073088
+USER	débitos	START	1707854073157
+REQUEST		débitos	1707854073157	1707854073159	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854073159
+USER	débitos	START	1707854073300
+REQUEST		débitos	1707854073300	1707854073302	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854073302
+USER	créditos	START	1707854073336
+REQUEST		créditos	1707854073336	1707854073337	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854073338
+USER	débitos	START	1707854073443
+REQUEST		débitos	1707854073443	1707854073445	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854073445
+USER	créditos	START	1707854073586
+USER	débitos	START	1707854073586
+USER	extratos	START	1707854073586
+REQUEST		débitos	1707854073586	1707854073588	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854073588
+REQUEST		créditos	1707854073586	1707854073588	KO	status.find.in(200), but actually found 404
+REQUEST		extratos	1707854073586	1707854073588	OK	 
+USER	créditos	END	1707854073588
+USER	extratos	END	1707854073588
+USER	débitos	START	1707854073696
+REQUEST		débitos	1707854073695	1707854073697	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854073698
+USER	créditos	START	1707854073785
+REQUEST		créditos	1707854073785	1707854073787	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854073788
+USER	débitos	START	1707854073807
+REQUEST		débitos	1707854073806	1707854073808	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854073808
+USER	débitos	START	1707854073918
+REQUEST		débitos	1707854073918	1707854073920	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854073920
+USER	créditos	START	1707854073985
+REQUEST		créditos	1707854073985	1707854073987	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854073987
+USER	débitos	START	1707854074029
+REQUEST		débitos	1707854074029	1707854074030	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854074030
+USER	débitos	START	1707854074140
+REQUEST		débitos	1707854074140	1707854074142	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854074143
+USER	créditos	START	1707854074185
+REQUEST		créditos	1707854074185	1707854074187	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854074187
+USER	débitos	START	1707854074251
+REQUEST		débitos	1707854074251	1707854074253	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854074254
+USER	débitos	START	1707854074362
+REQUEST		débitos	1707854074362	1707854074363	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854074364
+USER	créditos	START	1707854074386
+REQUEST		créditos	1707854074385	1707854074386	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854074387
+USER	débitos	START	1707854074473
+REQUEST		débitos	1707854074473	1707854074475	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854074475
+USER	créditos	START	1707854074586
+USER	extratos	START	1707854074586
+USER	débitos	START	1707854074586
+REQUEST		débitos	1707854074586	1707854074587	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854074588
+REQUEST		créditos	1707854074586	1707854074587	KO	status.find.in(200), but actually found 404
+REQUEST		extratos	1707854074586	1707854074587	OK	 
+USER	créditos	END	1707854074588
+USER	extratos	END	1707854074588
+USER	débitos	START	1707854074675
+REQUEST		débitos	1707854074675	1707854074677	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854074677
+USER	créditos	START	1707854074751
+REQUEST		créditos	1707854074751	1707854074752	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854074752
+USER	débitos	START	1707854074766
+REQUEST		débitos	1707854074766	1707854074767	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854074767
+USER	débitos	START	1707854074858
+REQUEST		débitos	1707854074858	1707854074859	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854074860
+USER	créditos	START	1707854074918
+REQUEST		créditos	1707854074918	1707854074919	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854074920
+USER	débitos	START	1707854074948
+REQUEST		débitos	1707854074948	1707854074949	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854074950
+USER	débitos	START	1707854075040
+REQUEST		débitos	1707854075040	1707854075042	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075042
+USER	extratos	START	1707854075085
+USER	créditos	START	1707854075085
+REQUEST		créditos	1707854075085	1707854075086	KO	status.find.in(200), but actually found 404
+REQUEST		extratos	1707854075085	1707854075086	OK	 
+USER	créditos	END	1707854075087
+USER	extratos	END	1707854075087
+USER	débitos	START	1707854075131
+REQUEST		débitos	1707854075130	1707854075132	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075132
+USER	débitos	START	1707854075222
+REQUEST		débitos	1707854075222	1707854075224	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075224
+USER	créditos	START	1707854075251
+REQUEST		créditos	1707854075251	1707854075252	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854075253
+USER	débitos	START	1707854075313
+REQUEST		débitos	1707854075313	1707854075314	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075314
+USER	débitos	START	1707854075404
+REQUEST		débitos	1707854075404	1707854075406	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075406
+USER	créditos	START	1707854075418
+REQUEST		créditos	1707854075418	1707854075419	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854075420
+USER	débitos	START	1707854075495
+REQUEST		débitos	1707854075495	1707854075497	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075497
+USER	débitos	START	1707854075585
+USER	créditos	START	1707854075586
+USER	extratos	START	1707854075586
+REQUEST		débitos	1707854075584	1707854075586	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075587
+REQUEST		créditos	1707854075585	1707854075587	KO	status.find.in(200), but actually found 404
+REQUEST		extratos	1707854075585	1707854075587	OK	 
+USER	créditos	END	1707854075588
+USER	extratos	END	1707854075588
+USER	débitos	START	1707854075661
+REQUEST		débitos	1707854075660	1707854075662	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075663
+USER	créditos	START	1707854075727
+REQUEST		créditos	1707854075727	1707854075728	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854075729
+USER	débitos	START	1707854075738
+REQUEST		débitos	1707854075737	1707854075739	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075739
+USER	débitos	START	1707854075815
+REQUEST		débitos	1707854075815	1707854075817	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075817
+USER	créditos	START	1707854075871
+REQUEST		créditos	1707854075870	1707854075872	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854075872
+USER	débitos	START	1707854075892
+REQUEST		débitos	1707854075892	1707854075894	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075894
+USER	débitos	START	1707854075969
+REQUEST		débitos	1707854075969	1707854075970	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854075971
+USER	créditos	START	1707854076013
+REQUEST		créditos	1707854076013	1707854076014	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854076015
+USER	débitos	START	1707854076046
+REQUEST		débitos	1707854076046	1707854076048	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076048
+USER	débitos	START	1707854076123
+REQUEST		débitos	1707854076123	1707854076124	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076125
+USER	créditos	START	1707854076156
+REQUEST		créditos	1707854076156	1707854076157	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854076158
+USER	débitos	START	1707854076200
+REQUEST		débitos	1707854076200	1707854076201	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076202
+USER	débitos	START	1707854076278
+REQUEST		débitos	1707854076277	1707854076279	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076279
+USER	créditos	START	1707854076299
+REQUEST		créditos	1707854076299	1707854076301	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854076301
+USER	débitos	START	1707854076354
+REQUEST		débitos	1707854076354	1707854076356	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076356
+USER	débitos	START	1707854076431
+REQUEST		débitos	1707854076431	1707854076433	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076433
+USER	créditos	START	1707854076443
+REQUEST		créditos	1707854076442	1707854076444	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854076444
+USER	débitos	START	1707854076509
+REQUEST		débitos	1707854076509	1707854076510	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076511
+USER	créditos	START	1707854076585
+USER	extratos	START	1707854076585
+USER	débitos	START	1707854076585
+REQUEST		débitos	1707854076585	1707854076587	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076587
+REQUEST		créditos	1707854076585	1707854076587	KO	status.find.in(200), but actually found 404
+REQUEST		extratos	1707854076585	1707854076587	OK	 
+USER	extratos	END	1707854076587
+USER	créditos	END	1707854076587
+USER	débitos	START	1707854076651
+REQUEST		débitos	1707854076651	1707854076653	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076653
+USER	créditos	START	1707854076710
+REQUEST		créditos	1707854076710	1707854076712	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854076713
+USER	débitos	START	1707854076718
+REQUEST		débitos	1707854076718	1707854076720	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076720
+USER	débitos	START	1707854076785
+REQUEST		débitos	1707854076785	1707854076787	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076787
+USER	créditos	START	1707854076835
+REQUEST		créditos	1707854076835	1707854076836	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854076837
+USER	débitos	START	1707854076852
+REQUEST		débitos	1707854076851	1707854076853	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076853
+USER	débitos	START	1707854076918
+REQUEST		débitos	1707854076918	1707854076920	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076920
+USER	créditos	START	1707854076959
+REQUEST		créditos	1707854076959	1707854076960	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854076961
+USER	débitos	START	1707854076985
+REQUEST		débitos	1707854076985	1707854076986	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854076987
+USER	débitos	START	1707854077052
+REQUEST		débitos	1707854077051	1707854077053	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077053
+USER	créditos	START	1707854077085
+USER	extratos	START	1707854077085
+REQUEST		créditos	1707854077085	1707854077086	KO	status.find.in(200), but actually found 404
+REQUEST		extratos	1707854077085	1707854077086	OK	 
+USER	extratos	END	1707854077087
+USER	créditos	END	1707854077087
+USER	débitos	START	1707854077119
+REQUEST		débitos	1707854077118	1707854077120	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077120
+USER	débitos	START	1707854077186
+REQUEST		débitos	1707854077185	1707854077187	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077187
+USER	créditos	START	1707854077210
+REQUEST		créditos	1707854077210	1707854077211	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854077212
+USER	débitos	START	1707854077252
+REQUEST		débitos	1707854077252	1707854077253	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077253
+USER	débitos	START	1707854077319
+REQUEST		débitos	1707854077319	1707854077320	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077321
+USER	créditos	START	1707854077335
+REQUEST		créditos	1707854077335	1707854077336	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854077337
+USER	débitos	START	1707854077386
+REQUEST		débitos	1707854077386	1707854077387	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077387
+USER	débitos	START	1707854077452
+REQUEST		débitos	1707854077452	1707854077454	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077454
+USER	créditos	START	1707854077460
+REQUEST		créditos	1707854077460	1707854077461	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854077462
+USER	débitos	START	1707854077519
+REQUEST		débitos	1707854077519	1707854077521	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077521
+USER	extratos	START	1707854077585
+USER	créditos	START	1707854077585
+USER	débitos	START	1707854077585
+REQUEST		débitos	1707854077585	1707854077587	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077587
+REQUEST		extratos	1707854077585	1707854077587	OK	 
+REQUEST		créditos	1707854077585	1707854077587	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854077587
+USER	extratos	END	1707854077587
+USER	débitos	START	1707854077647
+REQUEST		débitos	1707854077646	1707854077648	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077648
+USER	débitos	START	1707854077710
+USER	créditos	START	1707854077710
+REQUEST		débitos	1707854077709	1707854077711	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077711
+REQUEST		créditos	1707854077709	1707854077711	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854077712
+USER	débitos	START	1707854077772
+REQUEST		débitos	1707854077771	1707854077773	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077773
+USER	créditos	START	1707854077835
+USER	débitos	START	1707854077835
+REQUEST		débitos	1707854077834	1707854077836	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077836
+REQUEST		créditos	1707854077834	1707854077836	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854077836
+USER	débitos	START	1707854077897
+REQUEST		débitos	1707854077897	1707854077898	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077898
+USER	débitos	START	1707854077961
+USER	créditos	START	1707854077961
+REQUEST		débitos	1707854077961	1707854077963	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854077963
+REQUEST		créditos	1707854077961	1707854077963	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854077963
+USER	débitos	START	1707854078022
+REQUEST		débitos	1707854078022	1707854078023	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078023
+USER	créditos	START	1707854078085
+USER	débitos	START	1707854078085
+USER	extratos	START	1707854078085
+REQUEST		débitos	1707854078085	1707854078087	KO	status.find.in(200,422), but actually found 404
+REQUEST		créditos	1707854078085	1707854078087	KO	status.find.in(200), but actually found 404
+USER	débitos	END	1707854078087
+REQUEST		extratos	1707854078085	1707854078087	OK	 
+USER	créditos	END	1707854078087
+USER	extratos	END	1707854078088
+USER	débitos	START	1707854078147
+REQUEST		débitos	1707854078147	1707854078148	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078149
+USER	débitos	START	1707854078210
+USER	créditos	START	1707854078210
+REQUEST		débitos	1707854078210	1707854078211	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078211
+REQUEST		créditos	1707854078210	1707854078211	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854078212
+USER	débitos	START	1707854078272
+REQUEST		débitos	1707854078272	1707854078273	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078273
+USER	créditos	START	1707854078335
+USER	débitos	START	1707854078335
+REQUEST		débitos	1707854078335	1707854078337	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078337
+REQUEST		créditos	1707854078335	1707854078337	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854078337
+USER	débitos	START	1707854078397
+REQUEST		débitos	1707854078397	1707854078399	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078399
+USER	débitos	START	1707854078460
+USER	créditos	START	1707854078461
+REQUEST		débitos	1707854078459	1707854078461	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078461
+REQUEST		créditos	1707854078460	1707854078461	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854078462
+USER	débitos	START	1707854078523
+REQUEST		débitos	1707854078522	1707854078524	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078524
+USER	extratos	START	1707854078586
+USER	créditos	START	1707854078586
+USER	débitos	START	1707854078586
+REQUEST		débitos	1707854078585	1707854078587	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078587
+REQUEST		créditos	1707854078585	1707854078587	KO	status.find.in(200), but actually found 404
+REQUEST		extratos	1707854078585	1707854078587	OK	 
+USER	créditos	END	1707854078587
+USER	extratos	END	1707854078588
+USER	débitos	START	1707854078636
+REQUEST		débitos	1707854078636	1707854078638	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078638
+USER	créditos	START	1707854078685
+REQUEST		créditos	1707854078685	1707854078686	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854078687
+USER	débitos	START	1707854078689
+REQUEST		débitos	1707854078689	1707854078691	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078691
+USER	débitos	START	1707854078741
+REQUEST		débitos	1707854078741	1707854078743	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078743
+USER	créditos	START	1707854078785
+REQUEST		créditos	1707854078785	1707854078786	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854078786
+USER	débitos	START	1707854078795
+REQUEST		débitos	1707854078794	1707854078796	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078796
+USER	débitos	START	1707854078848
+REQUEST		débitos	1707854078847	1707854078849	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078849
+USER	créditos	START	1707854078885
+REQUEST		créditos	1707854078885	1707854078886	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854078887
+USER	débitos	START	1707854078900
+REQUEST		débitos	1707854078899	1707854078901	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078901
+USER	débitos	START	1707854078953
+REQUEST		débitos	1707854078953	1707854078954	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854078955
+USER	créditos	START	1707854078985
+REQUEST		créditos	1707854078985	1707854078986	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854078986
+USER	débitos	START	1707854079006
+REQUEST		débitos	1707854079005	1707854079007	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079007
+USER	débitos	START	1707854079058
+REQUEST		débitos	1707854079058	1707854079060	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079060
+USER	créditos	START	1707854079086
+REQUEST		créditos	1707854079085	1707854079087	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854079088
+USER	débitos	START	1707854079111
+REQUEST		débitos	1707854079111	1707854079112	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079112
+USER	débitos	START	1707854079163
+REQUEST		débitos	1707854079163	1707854079164	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079164
+USER	créditos	START	1707854079185
+REQUEST		créditos	1707854079185	1707854079186	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854079187
+USER	débitos	START	1707854079216
+REQUEST		débitos	1707854079216	1707854079217	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079217
+USER	débitos	START	1707854079269
+REQUEST		débitos	1707854079269	1707854079270	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079271
+USER	créditos	START	1707854079285
+REQUEST		créditos	1707854079285	1707854079286	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854079287
+USER	débitos	START	1707854079321
+REQUEST		débitos	1707854079321	1707854079322	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079322
+USER	débitos	START	1707854079374
+REQUEST		débitos	1707854079374	1707854079376	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079376
+USER	créditos	START	1707854079385
+REQUEST		créditos	1707854079385	1707854079386	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854079387
+USER	débitos	START	1707854079427
+REQUEST		débitos	1707854079427	1707854079428	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079428
+USER	débitos	START	1707854079479
+REQUEST		débitos	1707854079479	1707854079481	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079481
+USER	créditos	START	1707854079485
+REQUEST		créditos	1707854079485	1707854079487	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854079488
+USER	débitos	START	1707854079533
+REQUEST		débitos	1707854079532	1707854079534	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079534
+USER	débitos	START	1707854079586
+USER	extratos	START	1707854079586
+USER	créditos	START	1707854079586
+REQUEST		débitos	1707854079585	1707854079587	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079587
+REQUEST		créditos	1707854079585	1707854079586	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854079587
+REQUEST		extratos	1707854079585	1707854079587	OK	 
+USER	extratos	END	1707854079587
+USER	débitos	START	1707854079635
+REQUEST		débitos	1707854079634	1707854079636	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079636
+USER	débitos	START	1707854079684
+USER	créditos	START	1707854079685
+REQUEST		débitos	1707854079684	1707854079686	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079686
+REQUEST		créditos	1707854079685	1707854079686	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854079686
+USER	débitos	START	1707854079735
+REQUEST		débitos	1707854079735	1707854079736	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079736
+USER	créditos	START	1707854079785
+USER	débitos	START	1707854079785
+REQUEST		débitos	1707854079785	1707854079786	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079786
+REQUEST		créditos	1707854079785	1707854079786	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854079786
+USER	débitos	START	1707854079835
+REQUEST		débitos	1707854079835	1707854079836	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079836
+USER	créditos	START	1707854079885
+USER	débitos	START	1707854079885
+REQUEST		débitos	1707854079885	1707854079886	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079886
+REQUEST		créditos	1707854079885	1707854079886	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854079886
+USER	débitos	START	1707854079935
+REQUEST		débitos	1707854079935	1707854079937	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079937
+USER	débitos	START	1707854079985
+USER	créditos	START	1707854079985
+REQUEST		débitos	1707854079985	1707854079986	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854079986
+REQUEST		créditos	1707854079985	1707854079986	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854079987
+USER	débitos	START	1707854080035
+REQUEST		débitos	1707854080035	1707854080036	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854080036
+USER	débitos	START	1707854080085
+USER	extratos	START	1707854080085
+USER	créditos	START	1707854080085
+REQUEST		débitos	1707854080085	1707854080086	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854080086
+REQUEST		créditos	1707854080085	1707854080086	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854080087
+REQUEST		extratos	1707854080085	1707854080086	OK	 
+USER	extratos	END	1707854080087
+USER	débitos	START	1707854080135
+REQUEST		débitos	1707854080135	1707854080136	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854080137
+USER	créditos	START	1707854080185
+USER	débitos	START	1707854080185
+REQUEST		débitos	1707854080185	1707854080187	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854080187
+REQUEST		créditos	1707854080185	1707854080187	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854080187
+USER	débitos	START	1707854080235
+REQUEST		débitos	1707854080235	1707854080237	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854080237
+USER	créditos	START	1707854080286
+USER	débitos	START	1707854080286
+REQUEST		débitos	1707854080285	1707854080287	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854080287
+REQUEST		créditos	1707854080285	1707854080287	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854080288
+USER	débitos	START	1707854080335
+REQUEST		débitos	1707854080335	1707854080336	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854080337
+USER	débitos	START	1707854080386
+USER	créditos	START	1707854080386
+REQUEST		débitos	1707854080385	1707854080387	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854080387
+REQUEST		créditos	1707854080385	1707854080387	KO	status.find.in(200), but actually found 404
+USER	créditos	END	1707854080387
+USER	débitos	START	1707854080435
+REQUEST		débitos	1707854080435	1707854080436	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854080437
+USER	créditos	START	1707854080486
+USER	débitos	START	1707854080486
+REQUEST		débitos	1707854080485	1707854080487	KO	status.find.in(200,422), but actually found 404
+USER	débitos	END	1707854080487
+REQUEST		créditos	1707854080486	1707854080487	KO	

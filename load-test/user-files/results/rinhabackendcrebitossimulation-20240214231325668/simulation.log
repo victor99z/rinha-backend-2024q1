@@ -1,0 +1,284 @@
+RUN	RinhaBackendCrebitosSimulation	rinhabackendcrebitossimulation	1707952405668	Rinha de Backend - 2024/Q1: Crébito	3.10.3
+USER	validação concorrência transações - d	START	1707952406810
+USER	validação concorrência transações - d	START	1707952406810
+USER	validação concorrência transações - d	START	1707952406810
+USER	validação concorrência transações - d	START	1707952406810
+USER	validação concorrência transações - d	START	1707952406810
+USER	validação concorrência transações - d	START	1707952406811
+USER	validação concorrência transações - d	START	1707952406811
+USER	validação concorrência transações - d	START	1707952406811
+USER	validação concorrência transações - d	START	1707952406811
+USER	validação concorrência transações - d	START	1707952406811
+USER	validação concorrência transações - d	START	1707952406811
+USER	validação concorrência transações - d	START	1707952406812
+USER	validação concorrência transações - d	START	1707952406812
+USER	validação concorrência transações - d	START	1707952406812
+USER	validação concorrência transações - d	START	1707952406813
+USER	validação concorrência transações - d	START	1707952406814
+USER	validação concorrência transações - d	START	1707952406814
+USER	validação concorrência transações - d	START	1707952406814
+USER	validação concorrência transações - d	START	1707952406816
+USER	validação concorrência transações - d	START	1707952406814
+USER	validação concorrência transações - d	START	1707952406816
+USER	validação concorrência transações - d	START	1707952406817
+USER	validação concorrência transações - d	START	1707952406818
+USER	validação concorrência transações - d	START	1707952406818
+USER	validação concorrência transações - d	START	1707952406818
+REQUEST		validações	1707952406808	1707952406836	OK	 
+REQUEST		validações	1707952406807	1707952406833	OK	 
+REQUEST		validações	1707952406807	1707952406825	OK	 
+REQUEST		validações	1707952406807	1707952406825	OK	 
+USER	validação concorrência transações - d	END	1707952406846
+USER	validação concorrência transações - d	END	1707952406846
+USER	validação concorrência transações - d	END	1707952406846
+USER	validação concorrência transações - d	END	1707952406846
+REQUEST		validações	1707952406808	1707952406877	OK	 
+REQUEST		validações	1707952406807	1707952406877	OK	 
+USER	validação concorrência transações - d	END	1707952406878
+USER	validação concorrência transações - d	END	1707952406878
+REQUEST		validações	1707952406807	1707952406878	OK	 
+USER	validação concorrência transações - d	END	1707952406878
+REQUEST		validações	1707952406807	1707952406880	OK	 
+REQUEST		validações	1707952406807	1707952406881	OK	 
+REQUEST		validações	1707952406817	1707952406881	OK	 
+USER	validação concorrência transações - d	END	1707952406881
+REQUEST		validações	1707952406807	1707952406881	OK	 
+REQUEST		validações	1707952406807	1707952406881	OK	 
+USER	validação concorrência transações - d	END	1707952406881
+USER	validação concorrência transações - d	END	1707952406882
+USER	validação concorrência transações - d	END	1707952406882
+REQUEST		validações	1707952406807	1707952406882	OK	 
+REQUEST		validações	1707952406808	1707952406882	OK	 
+REQUEST		validações	1707952406807	1707952406883	OK	 
+REQUEST		validações	1707952406808	1707952406883	OK	 
+USER	validação concorrência transações - d	END	1707952406883
+USER	validação concorrência transações - d	END	1707952406883
+USER	validação concorrência transações - d	END	1707952406883
+USER	validação concorrência transações - d	END	1707952406883
+USER	validação concorrência transações - d	END	1707952406883
+REQUEST		validações	1707952406808	1707952406884	OK	 
+USER	validação concorrência transações - d	END	1707952406884
+REQUEST		validações	1707952406808	1707952406885	OK	 
+USER	validação concorrência transações - d	END	1707952406885
+REQUEST		validações	1707952406808	1707952406886	OK	 
+USER	validação concorrência transações - d	END	1707952406886
+REQUEST		validações	1707952406807	1707952406886	OK	 
+USER	validação concorrência transações - d	END	1707952406886
+REQUEST		validações	1707952406808	1707952406977	OK	 
+REQUEST		validações	1707952406808	1707952406977	OK	 
+USER	validação concorrência transações - d	END	1707952406977
+USER	validação concorrência transações - d	END	1707952406977
+REQUEST		validações	1707952406808	1707952406978	OK	 
+USER	validação concorrência transações - d	END	1707952406979
+REQUEST		validações	1707952406808	1707952406979	OK	 
+USER	validação concorrência transações - d	END	1707952406979
+REQUEST		validações	1707952406807	1707952406979	OK	 
+USER	validação concorrência transações - d	END	1707952406979
+USER	validação concorrência saldo - -25	START	1707952407791
+REQUEST		validações	1707952407791	1707952407794	KO	jmesPath(saldo.total).find.is(-25), but actually found 0
+USER	validação concorrência saldo - -25	END	1707952407843
+USER	validação concorrência transações - c	START	1707952408791
+USER	validação concorrência transações - c	START	1707952408791
+USER	validação concorrência transações - c	START	1707952408791
+USER	validação concorrência transações - c	START	1707952408791
+USER	validação concorrência transações - c	START	1707952408791
+USER	validação concorrência transações - c	START	1707952408791
+USER	validação concorrência transações - c	START	1707952408791
+USER	validação concorrência transações - c	START	1707952408791
+USER	validação concorrência transações - c	START	1707952408791
+USER	validação concorrência transações - c	START	1707952408791
+USER	validação concorrência transações - c	START	1707952408792
+USER	validação concorrência transações - c	START	1707952408792
+USER	validação concorrência transações - c	START	1707952408792
+USER	validação concorrência transações - c	START	1707952408792
+USER	validação concorrência transações - c	START	1707952408792
+USER	validação concorrência transações - c	START	1707952408792
+USER	validação concorrência transações - c	START	1707952408792
+USER	validação concorrência transações - c	START	1707952408792
+USER	validação concorrência transações - c	START	1707952408792
+USER	validação concorrência transações - c	START	1707952408792
+USER	validação concorrência transações - c	START	1707952408793
+USER	validação concorrência transações - c	START	1707952408793
+USER	validação concorrência transações - c	START	1707952408793
+USER	validação concorrência transações - c	START	1707952408794
+USER	validação concorrência transações - c	START	1707952408794
+REQUEST		validações	1707952408790	1707952408796	OK	 
+REQUEST		validações	1707952408791	1707952408796	OK	 
+REQUEST		validações	1707952408791	1707952408796	OK	 
+USER	validação concorrência transações - c	END	1707952408796
+USER	validação concorrência transações - c	END	1707952408796
+USER	validação concorrência transações - c	END	1707952408796
+REQUEST		validações	1707952408791	1707952408796	OK	 
+USER	validação concorrência transações - c	END	1707952408797
+REQUEST		validações	1707952408790	1707952408801	OK	 
+REQUEST		validações	1707952408791	1707952408801	OK	 
+USER	validação concorrência transações - c	END	1707952408801
+USER	validação concorrência transações - c	END	1707952408801
+REQUEST		validações	1707952408790	1707952408804	OK	 
+REQUEST		validações	1707952408791	1707952408805	OK	 
+USER	validação concorrência transações - c	END	1707952408806
+USER	validação concorrência transações - c	END	1707952408806
+REQUEST		validações	1707952408792	1707952408807	OK	 
+USER	validação concorrência transações - c	END	1707952408807
+REQUEST		validações	1707952408791	1707952408807	OK	 
+USER	validação concorrência transações - c	END	1707952408808
+REQUEST		validações	1707952408790	1707952408810	OK	 
+REQUEST		validações	1707952408792	1707952408810	OK	 
+REQUEST		validações	1707952408791	1707952408810	OK	 
+USER	validação concorrência transações - c	END	1707952408810
+USER	validação concorrência transações - c	END	1707952408810
+USER	validação concorrência transações - c	END	1707952408810
+REQUEST		validações	1707952408790	1707952408810	OK	 
+USER	validação concorrência transações - c	END	1707952408810
+REQUEST		validações	1707952408790	1707952408812	OK	 
+USER	validação concorrência transações - c	END	1707952408812
+REQUEST		validações	1707952408792	1707952408813	OK	 
+REQUEST		validações	1707952408792	1707952408813	OK	 
+USER	validação concorrência transações - c	END	1707952408813
+USER	validação concorrência transações - c	END	1707952408813
+REQUEST		validações	1707952408793	1707952408814	OK	 
+REQUEST		validações	1707952408790	1707952408814	OK	 
+USER	validação concorrência transações - c	END	1707952408814
+USER	validação concorrência transações - c	END	1707952408815
+REQUEST		validações	1707952408792	1707952408830	OK	 
+REQUEST		validações	1707952408793	1707952408830	OK	 
+REQUEST		validações	1707952408790	1707952408830	OK	 
+REQUEST		validações	1707952408792	1707952408830	OK	 
+USER	validação concorrência transações - c	END	1707952408830
+USER	validação concorrência transações - c	END	1707952408831
+USER	validação concorrência transações - c	END	1707952408831
+USER	validação concorrência transações - c	END	1707952408831
+REQUEST		validações	1707952408792	1707952408877	OK	 
+USER	validação concorrência transações - c	END	1707952408877
+REQUEST		validações	1707952408793	1707952408877	OK	 
+USER	validação concorrência transações - c	END	1707952408878
+USER	validação concorrência saldo - 0	START	1707952409791
+REQUEST		validações	1707952409791	1707952409794	OK	 
+USER	validação concorrência saldo - 0	END	1707952409795
+USER	validações	START	1707952410791
+USER	validações	START	1707952410791
+USER	validações	START	1707952410791
+USER	validações	START	1707952410791
+USER	validações	START	1707952410791
+USER	validação HTTP 404	START	1707952410791
+REQUEST		validações	1707952410791	1707952410794	KO	status.find.is(404), but actually found 500
+USER	validação HTTP 404	END	1707952410795
+REQUEST		validações	1707952410795	1707952410797	OK	 
+REQUEST		validações	1707952410795	1707952410797	OK	 
+REQUEST		validações	1707952410795	1707952410797	OK	 
+REQUEST		validações	1707952410795	1707952410797	OK	 
+REQUEST		validações	1707952410798	1707952410800	OK	 
+REQUEST		validações	1707952410798	1707952410800	OK	 
+REQUEST		validações	1707952410799	1707952410800	OK	 
+REQUEST		validações	1707952410795	1707952410802	OK	 
+REQUEST		validações	1707952410802	1707952410804	OK	 
+REQUEST		validações	1707952410802	1707952410804	OK	 
+REQUEST		validações	1707952410802	1707952410804	OK	 
+REQUEST		validações	1707952410802	1707952410804	OK	 
+REQUEST		validações	1707952410799	1707952410805	OK	 
+REQUEST		validações	1707952410804	1707952410806	OK	 
+REQUEST		validações	1707952410805	1707952410806	OK	 
+REQUEST		validações	1707952410807	1707952410808	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1707952410806	1707952410807	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1707952410804	1707952410805	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1707952410804	1707952410805	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1707952410804	1707952410805	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1707952410809	1707952410811	OK	 
+REQUEST		validações	1707952410809	1707952410811	OK	 
+REQUEST		validações	1707952410809	1707952410811	OK	 
+REQUEST		validações	1707952410809	1707952410811	OK	 
+REQUEST		validações	1707952410809	1707952410811	OK	 
+REQUEST		validações	1707952410811	1707952410813	KO	status.find.in(422), but actually found 200
+REQUEST		validações	1707952410811	1707952410813	KO	status.find.in(422), but actually found 200
+REQUEST		validações	1707952410811	1707952410813	KO	status.find.in(422), but actually found 200
+REQUEST		validações	1707952410811	1707952410813	KO	status.find.in(422), but actually found 200
+REQUEST		validações	1707952410814	1707952410814	OK	 
+REQUEST		validações	1707952410814	1707952410814	OK	 
+REQUEST		validações	1707952410815	1707952410815	OK	 
+REQUEST		validações	1707952410815	1707952410816	OK	 
+REQUEST		validações	1707952410814	1707952410816	OK	 
+REQUEST		validações	1707952410814	1707952410816	OK	 
+REQUEST		validações	1707952410815	1707952410816	OK	 
+USER	validações	END	1707952410817
+REQUEST		validações	1707952410816	1707952410816	OK	 
+USER	validações	END	1707952410817
+REQUEST		validações	1707952410816	1707952410817	OK	 
+REQUEST		validações	1707952410816	1707952410817	OK	 
+REQUEST		validações	1707952410817	1707952410817	OK	 
+REQUEST		validações	1707952410817	1707952410818	OK	 
+USER	validações	END	1707952410818
+USER	validações	END	1707952410818
+REQUEST		validações	1707952410811	1707952410819	KO	status.find.in(422), but actually found 200
+REQUEST		validações	1707952410819	1707952410820	OK	 
+REQUEST		validações	1707952410820	1707952410821	OK	 
+REQUEST		validações	1707952410821	1707952410821	OK	 
+USER	validações	END	1707952410821
+USER	extratos	START	1707952411800
+USER	débitos	START	1707952411801
+USER	créditos	START	1707952411801
+REQUEST		extratos	1707952411800	1707952411802	OK	 
+USER	extratos	END	1707952411803
+REQUEST		créditos	1707952411801	1707952411803	OK	 
+USER	créditos	END	1707952411803
+REQUEST		débitos	1707952411801	1707952411803	OK	 
+USER	débitos	END	1707952411804
+USER	créditos	START	1707952412793
+USER	extratos	START	1707952412793
+USER	débitos	START	1707952412794
+REQUEST		extratos	1707952412793	1707952412795	OK	 
+REQUEST		créditos	1707952412793	1707952412795	OK	 
+USER	extratos	END	1707952412795
+USER	créditos	END	1707952412795
+REQUEST		débitos	1707952412794	1707952412795	OK	 
+USER	débitos	END	1707952412796
+USER	débitos	START	1707952413042
+REQUEST		débitos	1707952413041	1707952413044	OK	 
+USER	débitos	END	1707952413044
+USER	créditos	START	1707952413292
+USER	débitos	START	1707952413292
+REQUEST		débitos	1707952413292	1707952413295	OK	 
+REQUEST		créditos	1707952413292	1707952413295	OK	 
+USER	créditos	END	1707952413296
+USER	débitos	END	1707952413296
+USER	débitos	START	1707952413543
+REQUEST		débitos	1707952413542	1707952413545	OK	 
+USER	débitos	END	1707952413545
+USER	débitos	START	1707952413791
+USER	extratos	START	1707952413791
+USER	créditos	START	1707952413792
+REQUEST		extratos	1707952413791	1707952413793	OK	 
+USER	extratos	END	1707952413794
+REQUEST		créditos	1707952413791	1707952413794	OK	 
+REQUEST		débitos	1707952413791	1707952413794	OK	 
+USER	créditos	END	1707952413794
+USER	débitos	END	1707952413794
+USER	débitos	START	1707952413957
+REQUEST		débitos	1707952413957	1707952413960	OK	 
+USER	débitos	END	1707952413961
+USER	créditos	START	1707952414041
+REQUEST		créditos	1707952414041	1707952414044	OK	 
+USER	créditos	END	1707952414045
+USER	débitos	START	1707952414125
+REQUEST		débitos	1707952414124	1707952414127	OK	 
+USER	débitos	END	1707952414128
+USER	créditos	START	1707952414292
+USER	débitos	START	1707952414292
+REQUEST		débitos	1707952414291	1707952414294	OK	 
+REQUEST		créditos	1707952414291	1707952414294	OK	 
+USER	débitos	END	1707952414295
+USER	créditos	END	1707952414295
+USER	débitos	START	1707952414458
+REQUEST		débitos	1707952414458	1707952414461	OK	 
+USER	débitos	END	1707952414462
+USER	créditos	START	1707952414542
+REQUEST		créditos	1707952414542	1707952414545	OK	 
+USER	créditos	END	1707952414546
+USER	débitos	START	1707952414625
+REQUEST		débitos	1707952414625	1707952414627	OK	 
+USER	débitos	END	1707952414628
+USER	débitos	START	1707952414791
+USER	extratos	START	1707952414792
+USER	créditos	START	1707952414792
+REQUEST		débitos	1707952414790	1707952414793	OK	 
+REQUEST		extratos	1707952414792	1707952414793	OK	 
+USER	
