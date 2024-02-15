@@ -10,7 +10,7 @@
 
 ### Benchmarks:
 
-
+![alt text](image.png)
 
 ### Rodar esse grande projeto
 
